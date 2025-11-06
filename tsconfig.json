@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* ✅ Modern and Fast */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* ⚙️ Folder structure */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "baseUrl": "./",
+
+    /* 💡 Performance + DX */
+    "incremental": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmitOnError": false,
+    "sourceMap": true,
+
+    /* 🧠 Strict & Reliable */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
